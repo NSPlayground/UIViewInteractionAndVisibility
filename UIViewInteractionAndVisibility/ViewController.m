@@ -16,8 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)onTap0:(id)sender {
+    assert(NO);
+    NSLog(@"onTap: alpha = 0");
+}
+
+- (IBAction)onTap1:(id)sender {
+    assert(NO);
+    NSLog(@"onTap: hidden = YES");
+}
+
+- (IBAction)onTap2:(id)sender {
+    NSLog(@"onTap: backgroundColor = .clear");
+}
 
 @end
